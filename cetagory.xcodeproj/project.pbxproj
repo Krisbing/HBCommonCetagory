@@ -28,6 +28,7 @@
 		5B2984251F7B8CA1002F7DAD /* UIScrollView+HBExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2984161F7B8CA1002F7DAD /* UIScrollView+HBExtention.m */; };
 		5B2984261F7B8CA1002F7DAD /* UIView+HBExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2984181F7B8CA1002F7DAD /* UIView+HBExtention.m */; };
 		5B2984271F7B8CA1002F7DAD /* UIView+HBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B29841A1F7B8CA1002F7DAD /* UIView+HBFrame.m */; };
+		5B29842A1F7B8F82002F7DAD /* HBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2984291F7B8F82002F7DAD /* HBConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,8 @@
 		5B2984181F7B8CA1002F7DAD /* UIView+HBExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBExtention.m"; sourceTree = "<group>"; };
 		5B2984191F7B8CA1002F7DAD /* UIView+HBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HBFrame.h"; sourceTree = "<group>"; };
 		5B29841A1F7B8CA1002F7DAD /* UIView+HBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBFrame.m"; sourceTree = "<group>"; };
+		5B2984281F7B8F82002F7DAD /* HBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBConstants.h; sourceTree = "<group>"; };
+		5B2984291F7B8F82002F7DAD /* HBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 		5B2983E51F7B78E6002F7DAD /* HBCetagory */ = {
 			isa = PBXGroup;
 			children = (
+				5B2984281F7B8F82002F7DAD /* HBConstants.h */,
+				5B2984291F7B8F82002F7DAD /* HBConstants.m */,
 				5B2984011F7B8CA1002F7DAD /* HBPublicTools.h */,
 				5B2984021F7B8CA1002F7DAD /* HBPublicTools.m */,
 				5B2984031F7B8CA1002F7DAD /* NSDate+HBExtention.h */,
@@ -351,6 +356,7 @@
 				5B29841D1F7B8CA1002F7DAD /* NSDateFormatter+HBExtention.m in Sources */,
 				5B2984241F7B8CA1002F7DAD /* UILabel+HBExtention.m in Sources */,
 				5B2984271F7B8CA1002F7DAD /* UIView+HBFrame.m in Sources */,
+				5B29842A1F7B8F82002F7DAD /* HBConstants.m in Sources */,
 				5B2984261F7B8CA1002F7DAD /* UIView+HBExtention.m in Sources */,
 				5B2983BA1F7B78B8002F7DAD /* ViewController.m in Sources */,
 				5B2984211F7B8CA1002F7DAD /* UIImage+HBExtention.m in Sources */,
@@ -595,6 +601,7 @@
 				5B2983DE1F7B78B8002F7DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B2983DF1F7B78B8002F7DAD /* Build configuration list for PBXNativeTarget "cetagoryTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +610,7 @@
 				5B2983E11F7B78B8002F7DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B2983E21F7B78B8002F7DAD /* Build configuration list for PBXNativeTarget "cetagoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +619,7 @@
 				5B2983E41F7B78B8002F7DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
